@@ -1,0 +1,271 @@
+
+
+
+:root {
+  --purple: #41246e;
+  --lightpurple: #d0bcff;
+  --orange: #ff9c7f;
+  --yellow: #ffd27c;
+  --skyblue: #9beaea;
+  --darkgrey: #333c46;
+  --lightyellow: #ffeacf;
+  --white: #fff;
+  --text: #262626;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter!important;
+}
+body{
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+  
+.logostyle{
+  width: 90px;
+  height: 42px;
+  
+}
+
+.account-create-signin{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  
+}
+.create-account, .signin{
+  background-color: #43165c;
+  border-radius: 100px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+}
+
+.account-create-signin a{
+  color: #fff!important;
+  padding: 0 10px!important;
+  height: 38px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.banner_heading{
+    font-size: 48px;
+    color: #000;
+}
+.banner_subheading{
+  color: #6a6a6a;
+  font-size: 20px;
+}
+.container{
+  max-width: 960px;
+}
+.fact-item h3{
+  font-size: 48px;
+}
+.fact-item{
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding: 16px;
+  width: 352px;
+  text-align: center;
+}
+.fact-item:first-child{
+  margin-right: 16px;
+}
+.section-heading h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000;
+  margin-bottom: 64px;
+  text-align: center;
+  letter-spacing: -.69px;
+}
+.trusted-by .trusted-logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.trusted-by .trusted-logo {
+    border-radius: 50%;
+    overflow: hidden;
+    flex: 0 0 160px;
+    max-width: 160px;
+    height: 160px;
+    background: #fff;
+    margin: 0 16px;
+}
+.trusted-by .trusted-logos-summary{
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
+.trusted-logos-summary p {
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+ 
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-design{
+  background: #41246e;
+  border-radius: 40px;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  min-width: 155px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+ 
+}
+
+.benefits-section .sec-heading{
+  text-align: center;
+}
+
+.benefits-section .sec-heading h5.small-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  letter-spacing: -.09px;
+  color: #db542a;
+}
+.benefits-section h4.large-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000;
+  margin-bottom: 64px;
+}
+.benefits-section .benefit-card-outer{
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.benefits-section .benefit-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 32px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-right: 0;
+  
+ 
+}
+.benefits-section .benefit-card .benefit-card-img {
+  text-align: right;
+  min-height: 200px;
+  flex-grow: 1;
+  
+}
+.benefits-section .benefit-card h5.small-header {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -.09px;
+
+}
+
+.benefits-section .benefit-card .card-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 6px 0 16px;
+  padding-right: 10px;
+  color: #000;
+  letter-spacing: -.69px;
+}
+.benefits-section .benefit-card p {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+}
+.card-image-11{
+  max-width: 250px;
+}
+.benefit-card-right{
+  background-color: #ff9c7f;
+}
+.benefit-card-left{
+  background-color: #ffeacf;
+}
+.benefits-section .benefit-card-large {
+  padding-right: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+}
+.bg-green {
+  background-color: #7acece;
+}
+.btn-wrap {
+  margin-top: 64px;
+}
+
+.section-footer{
+  height: 380px;
+  background-color: #43165c;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.section-footer{
+  height: 380px;
+ 
+  display: flex;
+  justify-content: center;
+}
+.footer-container{
+  display: flex;
+ 
+  width: 1100px;
+  height: 302px;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.download-upstox p{
+  font-size: 0.8rem;
+}
+
+
+.footer-nav-head{
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+li{
+  list-style: none;
+  line-height: 2;
+}
