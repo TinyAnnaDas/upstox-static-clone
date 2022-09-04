@@ -1,18 +1,4 @@
 
-
-
-:root {
-  --purple: #41246e;
-  --lightpurple: #d0bcff;
-  --orange: #ff9c7f;
-  --yellow: #ffd27c;
-  --skyblue: #9beaea;
-  --darkgrey: #333c46;
-  --lightyellow: #ffeacf;
-  --white: #fff;
-  --text: #262626;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -26,36 +12,6 @@ body{
 }
 
   
-.logostyle{
-  width: 90px;
-  height: 42px;
-  
-}
-
-.account-create-signin{
-  display: flex;
-  align-items: center;
-  margin: 0;
-  list-style-type: none;
-  padding: 0;
-  
-}
-.create-account, .signin{
-  background-color: #43165c;
-  border-radius: 100px;
-  font-weight: 700;
-  cursor: pointer;
-  padding: 0;
-}
-
-.account-create-signin a{
-  color: #fff!important;
-  padding: 0 10px!important;
-  height: 38px;
-  text-align: center;
-  text-decoration: none;
-
-}
 .banner_heading{
     font-size: 48px;
     color: #000;
@@ -231,40 +187,6 @@ body{
   margin-top: 64px;
 }
 
-.section-footer{
-  height: 380px;
-  background-color: #43165c;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
-
-
-
-.section-footer{
-  height: 380px;
- 
-  display: flex;
-  justify-content: center;
-}
-.footer-container{
-  display: flex;
- 
-  width: 1100px;
-  height: 302px;
-  margin-top: 40px;
-  justify-content: space-between;
-}
-.download-upstox p{
-  font-size: 0.8rem;
-}
-
-
-.footer-nav-head{
-  font-size: 1.125rem;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
 li{
   list-style: none;
   line-height: 2;

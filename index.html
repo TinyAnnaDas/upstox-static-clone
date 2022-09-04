@@ -15,61 +15,49 @@
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-  <header>
-    <div class="bodystyle">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./logo/upstox-logo-primary.svg" class="logostyle" alt="upstox logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <header class="bg-light" style="position: fixed; width:100%; z-index:1;">
+    <div class="row">
+      <div class="col-md-3 col-9 p-3 ps-5">
+        <img width="90" height="42" class="img-fluid" src="./logo/upstox-logo-primary.svg" alt="">
+      </div>
+      <div class="col-md-9 col-3">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto pe-5">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Invest</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Trade</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Learn</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Partner with us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Pricing</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">  
-              <input class="form-control me-2" type="search" placeholder="Search any stock E.g: AXIS BANK)" aria-label="Search">
-            </form>
-            <div>
-              <ul class="account-create-signin">
-                <li class="create-account">
-                  <a href="https://upstox.com/open-demat-account/?landing_page=home" >Create Account</a>
+                  <a class="nav-link active" aria-current="page" href="#home-section">Invest</a>
                 </li>
-                
-                <li class="signin">
-                  <a href="https://login.upstox.com/" target="_blank">Sign In</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#skills-section">Trade</a>
+              </li>
+              <li class="nav-item ">
+                  <a class="nav-link active" href="#hobbies-section">Learn</a>
                 </li>
-              </ul>
-            </div>
-            
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contact-section">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contact-section">Partner with us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contact-section">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#contact-section">Pricing</a>
+                </li>
+          </ul>
           </div>
-        </div>
-      </nav>
-  
+        </nav>
+      </div>
     </div>
+   
   </header>
   
-  <main>
-    <section class="banner-section p-5">
+  <main style="padding-top:3rem">
+    <section class="banner-section p-5" >
       <div class="container">
         <div class="row ">
           <div class="col-md-6 d-flex align-items-center flex-column justify-content-center">
@@ -184,69 +172,132 @@
     <section class="awards"></section>
     <section class="ups-app"></section> -->
   </main>
-    <footer class="section-footer">
-      <div class="footer-container">
-        <div class="download-upstox">
-          <div class="zerodha-logo">
+  <footer class="bg-secondary text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row ">
+        <div class="col-md-4 col-sm-4">
             <img class="logo-img pb-3" src="./image/upstrox-white-logo-footer.png" alt="">
-          </div>
-          <p>30th Floor, SunshineTower, </p>
-          <p> Senapati Bapat Marg, Dadar (W),</p>
-          <p> Mumbai, Maharashtra 400013</p>
-          
-          <div class="downloadapp-logo">
-            <a href="">
-              <img src="./image/download-playStore.png" class="pb-3" alt="">
+            <p>30th Floor, SunshineTower, </p>
+            <p> Senapati Bapat Marg, Dadar (W),</p>
+            <p> Mumbai, Maharashtra 400013</p>
+            <a href="https://play.google.com/store/apps/details?id=in.upstox.app">
+              <img class="img-fluid" src="./image/download-playStore.png" style="width: 140px; height:40px;" alt="">
             </a>
             <br>
-            <a href="">
-              <img src="./image/download-appStore.png"  alt="">
+            <a href="https://apps.apple.com/in/app/upstox-new-stocks-ipo-mf/id1584953620">
+              <img class="img-fluid m-2" src="./image/download-appStore.png" style="width: 140px; height:40px;" alt="">
             </a>
-          </div>
         </div>
-
-        <div class="upstox-company">
-          <li class="footer-nav-head">Products</li>
-          <li>Pro Web</li>
-          <li>Pro Mobile</li>
-          <li>Mutual Funds</li>
-          <li>IPOs</li>
-          <li>Futures and Options</li>
-          <li>Stocks</li>
-          <li>Indices</li>
-          <li>Developer</li>
+        <div class="col-md-2 col-sm-4">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Products</h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Pro Web</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Pro Mobile</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Mutual Funds</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">IPOs</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Futures and Options</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Stocks</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Indices</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Developer</a>
+          </p>
         </div>
-        <div class="upstox-company">
-          <li class="footer-nav-head">Company</li>
-          <li>About Us</li>
-          <li>Market Talk</li>
-          <li>Brokerage Charges</li>
-          <li>Refere and Earn</li>
-          <li>Announcements</li>
-          <li>Parner with us</li>
-          <li>Press Releases</li>
-          <li>Bug Bounty Program</li>
+        <div class="col-md-2 col-sm-4">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Company</h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">About Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Pro Mobile</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Market Talks</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Brokerage Charges</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Refere and Earn</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Announcements</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Press Releases</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Bug Bounty Program</a>
+          </p>
         </div>
-        <div class="upstox-services">
-          <li class="footer-nav-head">Services</li>
-          <li>Demat Account</li>
-          <li>Trading Account</li>
-          <li>Equity Trading</li>
-          <li>Download Forms</li>
-          <li>Glossary</li>
-          <li>Help Center</li>
+        <div class="col-md-2 col-sm-4">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Services</h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Demat Account</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Pro Mobile</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Trading Account</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Equity Trading</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Refere and Earn</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Download Forms</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Glossary</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Help Center</a>
+          </p>
         </div>
-        <div class="upstox-social">
-          <li class="footer-nav-head">Social</li>
-          <li>Facebook</li>
-          <li>twitter</li>
-          <li>Telegram</li>
-          <li>Linkedin</li>
-          <li>YouTube</li>
-          <li>Instagram</li>
+        <div class="col-md-2 col-sm-4">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Social</h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Facebook</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">twitter</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Telegram</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Equity Trading</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Linkedin</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">YouTube</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Glossary</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Instagram</a>
+          </p>
         </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </body>
